@@ -1,4 +1,6 @@
 import requests
+from bs4 import BeautifulSoup
+
 
 class Lista_De_Fundos_Imobiliarios(object):
 
@@ -21,28 +23,20 @@ class Lista_De_Fundos_Imobiliarios(object):
         self.status_pagina = self.r.status_code
         self.cookies = (self.r.cookies.get_dict())
 
-
     def quantidade_fiis_cadastrados(self):
         try:
 
-            url = 'https://www.gestaojudicial.com.br/Paginas/Prontuario_Juridico/Gerencia_Atendimento/Pesquisa/Pesquisa_Resultado.asp'
-
-            self.r = self.s.post(url, headers=self.headers, data=payload, cookies=self.cookies)
+            url = 'https://www.fundsexplorer.com.br/funds'
+            self.r = self.s.get(url, headers=self.headers, cookies=self.cookies)
             status_pagina = self.r.status_code
 
-            with open('PesquisarContrato.html', 'w') as f:
+            with open('fundsexplorer.html', 'w') as f:
                 f.write(self.r.text)
 
-            resposta = []
-            achei = False
             soup = BeautifulSoup(self.r.content, 'lxml')
 
-            aviso = soup.find('font').text.strip('\n').replace('\n', '').strip('\t').strip()
-            if aviso == 'Nenhuma informação foi encontrada.':
-                resposta.append([status_pagina, achei, aviso])
-                return resposta
-
-
+            aviso = soup.find("span", id="filters-results-count").b.text
+            print(aviso)
 
         except Exception as e:
             print('Erro pesquisar_contrato: {0}'.format(e))
