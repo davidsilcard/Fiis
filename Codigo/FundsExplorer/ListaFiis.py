@@ -36,7 +36,7 @@ class Lista_De_Fundos_Imobiliarios(object):
             soup = BeautifulSoup(self.r.content, 'lxml')
 
             aviso = soup.find("span", id="filters-results-count").b.text
-            print(aviso)
+            print('Exitem {0} Fiis listados.'.format(aviso))
 
         except Exception as e:
             print('Erro pesquisar_contrato: {0}'.format(e))
