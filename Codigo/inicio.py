@@ -9,6 +9,7 @@ def main():
     # print(req.status_pagina)
     # print(req.cookies)
     req.quantidade_fiis_cadastrados()
+    req.listar_fiis_gravar_banco()
 
 
 

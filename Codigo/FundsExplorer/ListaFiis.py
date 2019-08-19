@@ -41,3 +41,6 @@ class Lista_De_Fundos_Imobiliarios(object):
         except Exception as e:
             print('Erro pesquisar_contrato: {0}'.format(e))
             return False
+
+    def listar_fiis_gravar_banco(self):
+        pass

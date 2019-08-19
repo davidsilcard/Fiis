@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81a460ac-0f59-4827-9977-523f869fc00a" name="Default Changelist" comment="nova def quantidades de fiis">
+    <list default="true" id="81a460ac-0f59-4827-9977-523f869fc00a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codigo/FundsExplorer/ListaFiis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Codigo/FundsExplorer/ListaFiis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codigo/inicio.py" beforeDir="false" afterPath="$PROJECT_DIR$/Codigo/inicio.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Codigo/FundsExplorer/ListaFiis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="486">
+              <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -33,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Codigo/inicio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="187">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -64,8 +66,8 @@
       <list>
         <option value="$PROJECT_DIR$/venv/Codigo/inicio.py" />
         <option value="$PROJECT_DIR$/venv/Codigo/FundsExplorer/ListaFiis.py" />
-        <option value="$PROJECT_DIR$/Codigo/inicio.py" />
         <option value="$PROJECT_DIR$/Codigo/FundsExplorer/ListaFiis.py" />
+        <option value="$PROJECT_DIR$/Codigo/inicio.py" />
       </list>
     </option>
   </component>
@@ -172,6 +174,21 @@
       <option name="presentableId" value="Default" />
       <updated>1566221011234</updated>
     </task>
+    <task id="LOCAL-00001" summary="nova def quantidades de fiis">
+      <created>1566238891805</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566238891805</updated>
+    </task>
+    <task id="LOCAL-00002" summary="nova mensagem quantidade de fiis">
+      <created>1566239058135</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566239058135</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -199,7 +216,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nova def quantidades de fiis" />
-    <option name="LAST_COMMIT_MESSAGE" value="nova def quantidades de fiis" />
+    <MESSAGE value="nova mensagem quantidade de fiis" />
+    <option name="LAST_COMMIT_MESSAGE" value="nova mensagem quantidade de fiis" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Codigo/inicio.py">
@@ -226,20 +244,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Codigo/inicio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Codigo/FundsExplorer/ListaFiis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="486">
+          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo/inicio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
