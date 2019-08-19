@@ -1,11 +1,13 @@
-
+from Codigo.FundsExplorer.ListaFiis import Lista_De_Fundos_Imobiliarios
 
 
 
 
 
 def main():
-    pass
+    req = Lista_De_Fundos_Imobiliarios()
+    print(req.status_pagina)
+    print(req.cookies)
 
 
 
